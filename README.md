@@ -217,7 +217,7 @@ Gunakan perintah berikut untuk mengeksekusi program tersebut:
 ```bash
 mpirun -np <jumlahprosesor> -host <daftar host> python3 test.py
 ```
-Sesuaikan dengan progrm yang akan dijalankan:
+Sesuaikan dengan program yang akan dijalankan:
 ```bash
 mpirun -np 3 -host master, slave1,slave2,slave3  python3 bubble4.py
 ```
